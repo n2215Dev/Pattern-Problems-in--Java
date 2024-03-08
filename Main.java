@@ -1,10 +1,9 @@
 /*
-Problem: https://www.codingninjas.com/studio/problems/n-2-forest_6570178
+Problem: https://www.codingninjas.com/studio/problems/n-triangles_6573689
 
-* 
-* *
-* * *
-* * * *
+1
+1 2 
+1 2 3
 
  */
 import java.util.Scanner;
@@ -15,21 +14,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         //call the nForest function and pass the integer input taken from the user i.e. n
-        nForest2(n);
+        nTriangle.nTriangle(n);
     }
-
-    public static void nForest2(int n){
-    int stars = 1;
-    for(int i = 1; i <= n; ++i){
-        for(int j = 1; j <= stars; ++j){
-            //print the stars in the current row
-            System.out.print('*');
-            //print the space
-            System.out.print(" ");
-        }
-        //print a new line after the end of each row
-        System.out.println();
-        stars++;
-    }
-}
+   
 }
