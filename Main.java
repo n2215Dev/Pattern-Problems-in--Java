@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         
-        nTriangle2.nTriangle2(n);
+        Seeding.seeding(n);
     }
    
 }
