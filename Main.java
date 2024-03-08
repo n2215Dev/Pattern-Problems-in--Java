@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         
-        Seeding.seeding(n);
+        ReverseNumTriangle.nNumberTriangle(n);
     }
    
 }
